@@ -1,119 +1,118 @@
-# Internship Management system
+📌 Internship Management System
+📖 Project Overview
 
+The Internship Management System is a web-based application designed to simplify and organize the internship application and management process.
+This system helps manage internship listings, student applications, application status tracking, and basic administrative workflows in a structured and efficient way.
 
-🌐 SDP – Internship Management System (Spring Boot)
-📋 Overview
+The project demonstrates my ability to:
 
-SDP (Software Development Project) is a full-stack web application built with Spring Boot, JSP, and MySQL, designed to streamline internship management for both administrators and students.
+Understand real-world operational problems
 
-Admins can post internships, manage applicants, and track submissions, while students can register, browse opportunities, and apply online.
+Design a structured system
 
-🚀 Features
-👨‍💼 Admin Module
+Implement backend logic and data handling
 
-Secure admin login
+Maintain clean documentation and workflow clarity
 
-Add, edit, or delete internship postings
+🎯 Problem Statement
 
-View and manage registered students
+Managing internships manually involves handling multiple records, tracking application statuses, and coordinating between students and administrators, which can be inefficient and error-prone.
 
-Review internship applications and submissions
+This project aims to:
 
-🎓 Student Module
+Centralize internship information
 
-Student registration and login
+Track applications and their statuses
 
-Explore available internships
-
-Apply for internships directly
-
-Upload work submissions
-
-🧠 General
-
-MVC architecture (Model-View-Controller)
-
-Integrated with Spring Data JPA for database operations
-
-Clean layered design: Controller → Service → Repository
-
-JSP-based dynamic frontend with Bootstrap styling
+Reduce manual effort and improve data organization
 
 🛠️ Tech Stack
-Layer	Technology
-Frontend	HTML5, CSS3, JSP, Bootstrap
-Backend	Java 17+, Spring Boot
-Database	MySQL
-ORM	Spring Data JPA (Hibernate)
-Server	Apache Tomcat (embedded)
-IDE	Eclipse / IntelliJ IDEA
-Build Tool	Maven
-📁 Project Structure
-SDP/
- ├── src/
- │   ├── main/
- │   │   ├── java/com/klef/jfsd/springboot/
- │   │   │   ├── controller/      # Controllers (Admin, Customer, Internship)
- │   │   │   ├── model/           # Entity classes (Admin, Internship, Customer, etc.)
- │   │   │   ├── repository/      # Spring Data JPA repositories
- │   │   │   ├── service/         # Business logic layer
- │   │   │   └── SdpApplication.java
- │   │   ├── resources/
- │   │   │   ├── application.properties
- │   │   │   ├── static/          # Static assets (CSS/JS/images)
- │   │   │   └── templates/       # JSP templates if used with Thymeleaf
- │   │   └── webapp/
- │   │       └── *.jsp            # JSP frontend pages
- │   └── test/java/...            # Unit tests
- ├── pom.xml                      # Maven dependencies
- └── README.md
 
-⚙️ Setup Instructions
-1. Clone the repository
-git clone https://github.com/yourusername/SDP.git
-cd SDP
+Backend: Java (Spring Boot) / Python (update as per your project)
 
-2. Configure MySQL
+Frontend: JSP / HTML / CSS
 
-Create a database named sdp_db (or update in application.properties):
+Database: MySQL
 
-spring.datasource.url=jdbc:mysql://localhost:3306/sdp_db
-spring.datasource.username=root
-spring.datasource.password=yourpassword
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
+Tools & Technologies: Git, SQL, MVC Architecture
 
-3. Run the application
+IDE: Eclipse  / VS Code
 
-Using Maven:
+(Edit only if needed — keep it honest)
 
-mvn spring-boot:run
+⚙️ Key Features
 
+Internship listing and viewing module
 
-Or from IDE (run SdpApplication.java)
+Student application submission and tracking
 
-4. Access the app
+Application status management (Applied / Approved / Rejected)
 
-Visit → http://localhost:8080
+Structured database for internships and users
 
-📸 UI Pages (JSP)
-Page	Description
-adminlogin.jsp	Admin authentication page
-adminhome.jsp	Dashboard for managing internships
-addInternship.jsp	Form to add new internships
-customerlogin.jsp	Student login
-customerhome.jsp	Student dashboard
-viewInternships.jsp	List of available internships
+Basic role-based flow for users and admin
 
-🧩 Future Enhancements
+Clean MVC-based project structure
 
-Add email notifications for internship updates
+📊 System Workflow
 
-Implement role-based authentication (Spring Security)
+Admin adds internship details to the system
 
-Integrate REST APIs for mobile use
+Students browse available internships
 
-Add analytics dashboard for admin
+Students apply for internships
+
+Admin reviews applications
+
+Application status is updated and tracked
+
+📚 What I Learned
+
+Through this project, I gained practical experience in:
+
+Requirement analysis and system design
+
+Backend development and database integration
+
+Writing structured queries and handling data consistency
+
+Implementing application workflows
+
+Debugging and improving code logic
+
+Documenting technical projects clearly
+
+🚀 How to Run the Project
+
+Clone the repository
+
+git clone https://github.com/chbhargavsai/internship-management-system.git
 
 
+Import the project into your IDE
 
+Configure the MySQL database and update credentials
+
+Run the application and access it via the browser
+
+📌 Future Enhancements
+
+Authentication and authorization using Spring Security
+
+Email notifications for application updates
+
+Advanced filtering and search for internships
+
+Dashboard analytics for admin
+
+Improved UI/UX
+
+👤 Author
+
+Bhargav Sai
+
+GitHub: https://github.com/chbhargavsai
+
+📬 Contact
+
+Feel free to connect if you’d like to discuss the system design, workflow, or future improvements.
